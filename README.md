@@ -45,3 +45,5 @@ Key Files:
 npm install
 npm run dev
 ```
+
+Or just see it at https://ukslim.github.io/webworkers-demo/ 
