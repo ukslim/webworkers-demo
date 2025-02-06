@@ -32,6 +32,8 @@ It demonstrates four different approaches to passing data between the main threa
 
 The demo includes a UI with forms to test each approach, showing the results of the worker calculations.
 
+Disclaimer: A lot of this fell out of Cursor AI, and it deserves a clean-up. I can see at least one bug, where an `onMessage` fires for the wrong type of message.
+
 Key Files:
 * `main.ts`: Sets up the UI and handles communication with workers
 * `doubleWorker.ts`: Simple worker that doubles a number
